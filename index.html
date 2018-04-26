@@ -1,71 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta charset="UTF-8">
-<title>Matt Rozenboim's Portfolio</title>
-<link rel="stylesheet" href="styles.css">
-<link rel="second">
-<script> src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Grid.css">
 </head>
+
 <body>
-<div element="title">
-<header>
-	<h1><a name="top"></a>Hello World</h1>
-<!-- comment yo! -->
-		Photography, CS, and Digital Design <br />
-		<a href= "secondpage.html">Resume</a><br />
- 		<a href="https://www.instagram.com/mattboim/">Instagram</a>
-	<br />
-	</header>
-	</div>
-<section>
-<table border="0">
-	<tr>
-		<td><a><img src="images/Building1EditedInsta2smaller.jpeg" /></a> <br />
-		<a href="images/Building1EditedInsta2smaller.jpeg"> &lt; 320 x 320 , </a>
-			<a href="images/Building1EditedInsta2small.jpg"> 640 x 640 , </a> 
-			<a href="images/Building1EditedInsta2 (1 of 1).jpg"> 4096 x 4096&gt; </a></td>
-		<td> <a><img src="images/SimpleHomeHD2small.jpg" /></a> <br />
-			<a href="images/SimpleHomeHD2small.jpg"> &lt;640 x 640 , </a> 
-			<a href="images/SimpleHomeHD2.jpg"> 4096 x 4096&gt; </a> </td>
-		<td> <a><img src="images/MissionHDsmall.jpg" /></a> <br />
-			<a href="images/MissionHDsmall.jpg"> &lt;640 x 640 , </a> 
-			<a href="images/MissionHD.jpg"> 4096 x 4096&gt; </a> </td>
-	</tr>
-	<tr>
-		<td> <a><img src="images/Blobssmaller.jpeg" /></a> <br />
-			<a href="images/Blobssmaller.jpeg"> &lt; 320 x 320 , </a> 
-			<a href="images/Blobssmall.jpg"> 640 x 640 , </a> 
-			<a href="images/Blobs.jpg"> 4096 x 4096&gt; </a> </td>
-		<td> <video height="640px" controls autoplay loop muted playsinline>
-  			<source src="images/CharacterMoveCyclev2 (Converted)small.mov" type="video/mp4">
-			</video> </td>
-		<td> <a><img src="images/Building1EditedInsta2small.jpg" /></a> <br />
-			<a href="images/Building1EditedInsta2small.jpg"> &lt;640 x 640 , </a> 
-			<a href="images/Building1EditedInsta2 (1 of 1).jpg"> 4096 x 4096&gt; </a> </td>
-	</tr>
-	</table>
-	<a href= "#top">Top</a><br />
-</section>
-<footer>
-	<a href="mailto:mattrozenboim@gmail.com" title="Contact me at mattrozenboim@gmail.com">Contact</a>
-</footer>
-			<div>
-				<h3>Two Columns</h3>
-				</div>
-
-				<div class="section group">
-					<div class="col span_1_of_2">
-					1 of 2
-					</div>
-					<div class="col span_1_of_2">
-					1 of 2
-					</div>
-				</div>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top bg-primary">
+        <div class="container"><a class="navbar-brand" href="#"><strong>Matt R</strong></a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Resume</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="promo">
+        <div class="jumbotron">
+            <h1>Heading text</h1>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            <p><a class="btn btn-primary" role="button" href="#">Learn more</a></p>
+        </div>
+    </div>
+    <div class="container site-section" id="welcome">
+        <h1>Words</h1>
+        <p>Some more wordsbootstrap studiobootstrap studiobootstrap studiobootstrap studiobootstrap studiobootstrap studiobootstrap studiobootstrap studiobootstrap studiobootstrap studiobootstrap studiobootstrap studio</p>
+    </div>
+    <div class="container site-section" id="ImageGrid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card"><a href="assets/img/Blobs.jpg" target="_blank"><img class="img-fluid" src="assets/img/Blobs.jpg"></a></div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"><a href="assets/img/PillBoy.jpg" target="_blank"><img class="img-fluid" src="assets/img/PillBoy.jpg"></a></div>
+            </div>
+            <div class="col-md-4">
+                <div class="card"><a href="assets/img/SimpleHomeHD2.jpg" target="_blank"><img class="img-fluid" src="assets/img/SimpleHomeHD2.jpg"></a></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
-</html>
 
+</html>
